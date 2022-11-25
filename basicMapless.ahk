@@ -11,7 +11,7 @@ global UsedSeedFile := ""
 FileRead, UsedSeedFile, % UsedSeedsPath
 global UsedSeedList := StrSplit(UsedSeedFile, "`n")
 
-global SeedsFilePath := "seeds.txt"
+global SeedsFilePath := "basicMaplessSeeds.txt"
 global SeedFile := ""
 FileRead, SeedFile, % SeedsFilePath
 global SeedList := StrSplit(SeedFile, "`n")
