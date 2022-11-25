@@ -2,7 +2,7 @@
 SetWorkingDir, %A_ScriptDir%
 SetKeyDelay, 50
 
-global SavesDirectory := "C:\Users\PodX1\Downloads\MultiMC\instances\Multi1\.minecraft\saves\"
+global SavesDirectory := "C:\Users\PodX1\Downloads\MultiMC\instances\Multi1\.minecraft\saves\" ; put your own instance directory here
 global titleScreenDelay := 0
 global delay := 45
 
@@ -119,7 +119,7 @@ ExitWorld()
     Send {Esc}{Tab 6}{Enter}+{Tab 3}{Enter}
 }
 
-^p:: CreateWorld()
+^p:: CreateWorld() ; UPDATE THIS KEY TO CHANGE YOUR RESET KEY
 
 return
 
